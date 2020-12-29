@@ -77,6 +77,7 @@ nav a:hover{
 
 .insta{
   width: 3%;
+  border: none;
 }
 
 .top-pic{
@@ -122,4 +123,73 @@ hr{
 
 .topcontain-heading{
   font-size: 0.8rem;
+}
+
+#contact-message{
+  margin: 30px auto 30px auto;
+  line-height: 1.7;
+  width: 60%;
+
+}
+.icon-pic{
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+
+.list{
+  width: 60%;
+  margin: 30px auto 30px auto;
+  line-height: 1.7;
+  text-align: left;
+
+}
+
+.list a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #66BFBF;
+}
+
+.list a:hover{
+  border-bottom: 3px solid #4e9191;
+  color: #4e9191;
+}
+
+.box{
+  background-color: #d3f5f5;
+  padding: 20px;
+  margin: 20px auto 50px auto;
+  width: 60%;
+  border-radius: 25px;
+  line-height: 1.5;
+}
+
+.box hr{
+  width: 40%;
+  border: 1px solid black;
+  border-top: none;
+  margin: 20px auto 20px auto;
+}
+
+.box a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #66BFBF;
+}
+
+.box a:hover{
+  border-bottom: 3px solid #4e9191;
+  color: #4e9191;
+}
+
+#contact-message a{
+  text-decoration: none;
+  font-weight: bolder;
+  color: #66BFBF;
+}
+
+#contact-message a:hover{
+  border-bottom: 3px solid #4e9191;
+  color: #4e9191;
 }
