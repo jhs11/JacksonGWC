@@ -8,11 +8,13 @@ body{
   position: relative;
   padding-top: 50px;
   height: 450px;
+  width: 100%;
+  margin: 0;
 }
 
 h1{
   color: #66BFBF;
-  font-size: 260%;
+  font-size: 280%;
   font-weight: bolder;
   margin: 50px auto 50px auto;
 
@@ -20,15 +22,15 @@ h1{
 
 .home{
   position: absolute;
-  top: 10px;
-  left: 10px;
-  height: 12%;
-  width: 7%;
+  top: 15px;
+  left: 10%;
+  width: 5%;
+  height: auto;
 }
 
 nav{
   margin: 0;
-  padding: 15px;
+  padding: 20px;
   background-color: #E4F9F5;
   border-radius: 8px;
   height: 50px;
@@ -39,12 +41,9 @@ nav a{
   text-decoration: none;
   margin: 3%;
   position: relative;
-  left: 15%;
+  left: auto;
   color: #66BFBF;
   font-weight: bold;
-}
-.home:hover{
-  border-bottom: 3px solid #4e9191;
 }
 
 nav a:hover{
@@ -52,8 +51,8 @@ nav a:hover{
   color: #4e9191;
 }
 
-.top-pic{
-  width: 75%;
+.main-pic{
+  width: 50%;
   display: block;
   margin: auto;
   position: absolute;
@@ -61,12 +60,64 @@ nav a:hover{
 }
 
 .middle-container{
-  width: 60%;
-  margin: auto;
+  width: 100%;
+  margin: 0;
 }
 
 .inner{
-  margin: 100px auto 100px auto;
+  margin: 100px auto 150px auto;
   text-align: left;
   line-height: 1.7;
+  width: 60%;
+}
+
+.bottom{
+  width: 100%;
+  background-color: #E4F9F5;
+  padding: 20px;
+}
+
+.insta{
+  width: 25%;
+}
+
+.top-pic{
+  width: 40%;
+  float: left;
+  position: relative;
+  margin-right: 30px;
+}
+
+
+.bottom-pic{
+  width: 40%;
+  float: right;
+  position: relative;
+  margin-left: 30px;
+}
+
+hr{
+  border: 10px dotted;
+  border-top: none;
+  width: 5%;
+  color: #66BFBF;
+}
+
+.btn{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66BFBF;
+  padding: 10px 20px 10px 20px;
+  border: solid #12b5ad 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4e9191;
+  text-decoration: none;
 }
