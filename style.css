@@ -18,11 +18,11 @@ h1{
 
 }
 
-#home{
+.home{
   position: absolute;
   top: 10px;
   left: 10px;
-  height: 7%;
+  height: 12%;
   width: 7%;
 }
 
@@ -43,7 +43,7 @@ nav a{
   color: #66BFBF;
   font-weight: bold;
 }
-#home:hover{
+.home:hover{
   border-bottom: 3px solid #4e9191;
 }
 
@@ -53,11 +53,20 @@ nav a:hover{
 }
 
 .top-pic{
-  height: auto;
-  width: auto;
+  width: 75%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   position: absolute;
   bottom: 1px;
+}
+
+.middle-container{
+  width: 60%;
+  margin: auto;
+}
+
+.inner{
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 1.7;
 }
